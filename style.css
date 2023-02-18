@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+}
+
+.header {
+    background-image: url("./assets/background.png");
+    height: 840px;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    opacity: 0.4;
+    cursor: pointer;
+    margin-left: 4rem;
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+    list-style-type: none;
+}
+
+.account li:first-child {
+    color: #262B36;
+    transform: translateX(3rem);
+}
+
+.account li:last-child {
+    color: #3ACF6E;
+    transform: translateX(2rem);
+}
+
+nav ul li:first-child {
+    opacity: 1;
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.header h1 {
+    margin: 5rem;
+    margin-top: 75px;
+    opacity: 1;
+    color: rgba(255, 255, 255, 1);
+    font-size: 55px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 74px;
+    width: 600px;
+}
+
+.header p {
+    margin: 0 5rem;
+    opacity: 1;
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 32px;
+    width: 600px;
+    height: 96px;
+}
+
+.header .buttons {
+    margin: 4rem 5rem;
+}
+
+.header .buttons button:first-child {
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    width: 141px;
+    height: 48px;
+    border-radius: 5px;
+    opacity: 1;
+    background-color: rgba(58, 207, 110, 1);
+    border: none;
+}
+
+.header .buttons button:last-child {
+    border-radius: 5px;
+    color: white;
+    border: pointer;
+    border: 1px solid rgba(255, 255, 255, 1);
+    opacity: 1;
+    background: none;
+    cursor: pointer;
+    width: 141px;
+    height: 48px;
+}
+
+.image-nav1,
+.image-nav2 {
+    position: absolute;
+    right: 0;
+}
+
+.image-nav1 {
+    bottom: 40px;
+    right: 1rem;
+}
+
+.image-nav2 {
+    bottom: 0;
+    transform: translateY(3rem);
+}
+
+
+/* centre-content */
+
+.centre-par {
+    margin-left: 5rem;
+    margin-top: 118px;
+    width: 800px;
+}
+
+.centre-content h2 {
+    opacity: 1;
+    color: rgba(32, 83, 209, 1);
+    font-size: 15px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 145px;
+}
+
+.centre-content h1 {
+    opacity: 1;
+    color: rgba(38, 43, 54, 1);
+    font-family: "Inter-Bold";
+    font-size: 42px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.centre-content .features {
+    margin: 0 5rem;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.features .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.right-par {
+    width: 600px;
+    height: 84px;
+    margin-top: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card {
+    width: 324px;
+    height: 226px;
+}
+
+
+/* Update */
+.update {
+    border: 2px solid red;
+}
+
+.update h3 {
+    opacity: 1;
+    color: rgba(32, 83, 209, 1);
+    font-size: 15px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 120px;
+    margin-top: 48px;
+}
+
+.update-par {
+    opacity: 1;
+    color: rgba(38, 43, 54, 1);
+    font-family: "Inter-Bold";
+    font-size: 42px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 64px;
+    width: 329px;
+    margin-left: 120px;
+}
+
+/* 
+https://www.sketch.com/s/a8151c89-20b6-4b4e-bede-68499b93134a/a/WKzpDyw#Inspect
+*/
