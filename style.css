@@ -304,7 +304,7 @@ nav>ul li:last-child {
     margin-top: 30px;
 }
 
-.services img {
+.services>img {
     margin-top: 84px;
     width: 673px;
 }
@@ -340,6 +340,143 @@ nav>ul li:last-child {
 
 .grid-item p {
     font-size: 18px;
+}
+
+.quotes {
+    margin: 0 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow {
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    background-color: black;
+    opacity: 40%;
+    color: white;
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.arrow:hover {
+    opacity: 50%;
+}
+
+.quote {
+    margin: 0;
+    padding: 0;
+    width: 550px;
+}
+
+.points {
+    display: flex;
+    margin-bottom: 230px;
+}
+
+.point {
+    border-radius: 50%;
+    background-color: #606C84;
+    width: 12px;
+    height: 12px;
+    margin-right: 20px;
+}
+
+.point:nth-child(2) {
+    background-color: #1C57C9;
+}
+
+.point:last-child {
+    margin-right: 0;
+}
+
+
+/* Contact section */
+.contact {
+    margin-top: 178px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact h3 {
+    opacity: 1;
+    color: rgba(32, 83, 209, 1);
+    font-size: 15px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 10px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.contact-par {
+    opacity: 1;
+    color: rgba(38, 43, 54, 1);
+    font-size: 42px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 64px;
+    width: 329px;
+    margin-top: 16px;
+}
+
+.contact>img {
+    width: 412px;
+    height: 362px;
+    margin-top: 64px;
+}
+
+.contact>div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact>div div {
+    display: flex;
+    flex-direction: column;
+    width: 386px;
+    margin-bottom: 16px;
+}
+
+.contact>div div label {
+    margin-bottom: 12px;
+}
+
+.contact>div div input,
+select,
+textarea {
+    height: 36px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #CCC;
+    resize: vertical;
+    font-size: 18px;
+    transition: 300ms;
+    padding: 2px 4px;
+}
+
+textarea {
+    height: auto;
+}
+
+.contact>div div input:hover,
+.contact>div div select:hover,
+.contact>div div textarea:hover {
+    border: 1px solid #888;
+}
+
+.contact>div div input:focus,
+.contact>div div select:focus,
+.contact>div div textarea:focus {
+    border: 1px solid black;
 }
 
 /*
